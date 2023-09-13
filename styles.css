@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(36, 100%, 99%);
+    min-height: 100vh;
+    padding: 0 6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+/* *==================== GENERAL START ==================== */
+
+button {
+    background: hsl(5, 85%, 63%);
+    border: none;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+button:hover {
+    background: hsl(240, 100%, 5%);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+
+/* *==================== GENERAL END ==================== */
+
+
+
+/* *==================== HEADER START ==================== */
+ 
+header {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}
+
+a:visited {
+    color: hsl(240, 100%, 5%);
+}
+
+a:hover {
+    color: hsl(5, 85%, 63%)
+}
+
+/* *==================== HEADER END ==================== */
+
+/* *==================== MAIN START ==================== */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+/* *==================== SECTION START ==================== */
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    grid-column: span 2;
+}
+
+.section__image {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.section__body {
+    display: flex;
+    gap: 2rem;
+}
+
+.section__internal-container {
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* *==================== SECTION END ==================== */
+
+
+/* *==================== ASIDE START ==================== */
+
+aside {
+    background: hsl(240, 100%, 5%);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article {
+    color: #fff;
+    gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside__body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* *==================== ASIDE END ==================== */
+
+
+/* *==================== CARDS SECTION START ==================== */
+
+
+.cards__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    gap: 1rem;
+}
+
+.card_photo {
+    height: 7rem;
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__numeration {
+    color: hsl(233, 8%, 79%);
+}
+
+/* *==================== CARDS SECTION END ==================== */
+
+
+
+
+
+/* *==================== MAIN END ==================== */
+
